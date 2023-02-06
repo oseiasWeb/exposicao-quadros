@@ -24,4 +24,4 @@
 
 <h2 align="center">🔗 Link da página</h2>
 <p>Logo abaixo temos o link da página para visualização e testes:</p>
-👉 <a href="" target="_blank">Exposição Quadros</a><br><br>
+👉 <a href="https://oseiasweb.github.io/exposicao-quadros/" target="_blank">Exposição Quadros</a><br><br>
