@@ -2,6 +2,13 @@ html {
     font-family: 'Public Sans', sans-serif;
 }
 
+.container {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .pinturas {
     display: flex;
     gap: 20px;
