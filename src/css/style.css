@@ -1,14 +1,58 @@
-body {
+html {
     font-family: 'Public Sans', sans-serif;
-    font-weight: 400px;
 }
 
-.container {
+.pinturas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 129px 21px;
+}
+
+.pinturas .pintura {
+    width: 330px;
+    height: 432px;
+    position: relative;
+}
+
+.pinturas .pintura img {
+    width: 100%;
+}
+
+.pinturas .pintura .informacoes {
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 43px;
+    left: 26px;
+}
+
+.pinturas .pintura .titulo{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.pinturas .pintura .subtitulo{
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 43px;
+}
+
+
+
+
+
+
+
+
+/* .container {
     background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 129px 21px;
+    position: relative;
 }
 
 .container div {
@@ -33,6 +77,10 @@ body {
     display: inline-block;
 }
 
+.container .lista-quadros .quadro h1, p {
+    position: absolute;    
+}
+
 .container .lista-quadros .quadro h1 {
     font-size: 30px;
     font-weight: 700;
@@ -41,7 +89,6 @@ body {
 .container .lista-quadros .quadro p {
     font-size: 17px;
     font-weight: 300;
-}
 
-
-
+    bottom: 40px;
+} */
