@@ -1,0 +1,47 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400px;
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 129px 21px;
+}
+
+.container div {
+    position: relative;
+    display: inline-block;
+}
+
+.container .lista-quadros {
+    background-color: rgb(207, 33, 33);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .lista-quadros .quadro img {
+    background-color: black;
+    width: 335px;
+    height: 432px;
+    padding: 0 20px 0 0;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+}
+
+.container .lista-quadros .quadro h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container .lista-quadros .quadro p {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+
+
